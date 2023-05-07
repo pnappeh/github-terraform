@@ -27,5 +27,5 @@ resource "github_repository" "github-terraform" {
     has_downloads    = true
     has_issues       = true
     license_template = "mit"
-    topics           = ["devops", "IaaC", "github", "terraform"]
+    topics           = ["devops", "iaaa", "github", "terraform"]
 }
