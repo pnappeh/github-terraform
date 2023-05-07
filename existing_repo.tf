@@ -177,16 +177,3 @@ resource "github_repository" "supermarket-scraping" {
     license_template = "mit"
     topics           = ["cs50", "python"]
 }
-
-
-resource "github_repository" "github-terraform" {
-    name             = "github-terraform"
-    description      = "Terraform project to manage all github repositories"
-    private          = false
-    has_projects     = true
-    has_wiki         = true
-    has_downloads    = true
-    has_issues       = true
-    license_template = "mit"
-    topics           = ["devops", "IaaC", "github", "terraform"]
-}
